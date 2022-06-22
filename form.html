@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+    <head>
+        <title>form tags</title>
+    </head>
+    <body>
+        <form>
+            <div>
+            <lable>Enter FirstName</lable>
+            <input type="text" name="first name" placeholder="Enter FirstName">
+            </div><br>
+
+            <div>
+                <lable> Enter Last Name</lable>
+                <input type="text" name="last name" placeholder="Enter Last Name">
+            </div><br>
+
+            <div>
+                <!--instead of use text, type="email" is specific for adding emials-->
+                <lable>Enter Mail</lable>
+                <input type="email" name="email" placeholder="Enter Emial">
+            </div><br>
+            <div>
+                <!-- pasword type is used to hide password-->
+                <lable>Enter Password</lable>
+                <input type="password" name="password" placeholder="Enter Password">
+            </div><br>
+            <div>
+                <!--by using name="gender" we can select only one specific filed-->
+                <lable>Gender</lable>
+                <input type="radio" name="gender">Female
+                <input type="radio" name="gender">Male
+            </div><br>
+            <button type="submit">Register</button>
+            <button type="reset">Reset</button>
+            <div>
+                <lable>Select Course</lable>
+                <input type="checkbox">Java
+                <input type="checkbox">SQL
+            </div><br>
+            <div>
+                <select>
+                <option>--Select City--</option>
+                <option>Chikkamagulru</option>
+                <option>Shivamogga</option>
+                <option>Bhadravathi</option>
+            </select>
+            </div><br>
+            <div>
+                <lable>Address</lable>
+                <!--<input><address></address>-->
+                <textarea rows="10" cols="15"></textarea>
+            </div><br>
+            <div>
+                <lable>File Upload</lable>
+                <input type="file">
+            </div><br>
+            <button type="submit">Register</button>
+            <button type="reset">Reset</button>
+        </form>
+        </body   
